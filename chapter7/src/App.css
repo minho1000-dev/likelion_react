@@ -1,0 +1,39 @@
+.blogContainer {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.postItem {
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+}
+
+.postItem p {
+  color: #7f8c8d;
+}
+
+.postItem .user {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.postItem .user .avatar {
+  width: 30px;
+  height: 30px;
+  background-color: #9b59b6;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postItem .user .email {
+  margin-left: auto;
+  color: #7f8c8d;
+}
