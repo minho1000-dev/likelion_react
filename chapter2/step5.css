@@ -1,0 +1,77 @@
+/* 텍스트 스타일 */
+.text-style {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* 블록 박스 */
+.block-box {
+  display: block;
+}
+
+/* 배경 */
+.background {
+  background-color: green;
+}
+
+.hex-background {
+  background-color: #e67e22;
+}
+
+/* 테두리 */
+.border {
+  padding: 10px;
+  border: 2px solid #333;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.solid {
+  border-style: solid;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
+.dotted {
+  border-style: dotted;
+}
+
+.double {
+  border-style: double;
+}
+
+/* 패딩과 마진 */
+.padding {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  border: 1px solid black;
+}
+
+.margin {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+/* 박스 사이징 */
+.border-box {
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content-box {
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  padding: 10px;
+  box-sizing: content-box;
+}

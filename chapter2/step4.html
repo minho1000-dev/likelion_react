@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS를 적용하는 세 가지 방법</title>
+
+    <link rel="stylesheet" href="step4.css" />
+
+    <style>
+      p {
+        color: gray;
+      }
+
+      .title {
+        color: green;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h2>인라인 스타일</h2>
+      <div style="font-size: 20px">Text</div>
+      <div style="font-size: 30px">Text</div>
+      <div style="color: blue">Text</div>
+      <div style="font-size: 40px; color: blue">Text</div>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>내부 스타일</h2>
+      <p>태그 선택자</p>
+      <div class="title">클래스 선택자</div>
+    </section>
+
+    <section>
+      <h2>외부 스타일</h2>
+      <div class="large-title">매우 큰 글자</div>
+      <div class="purple-text">보라색 글자</div>
+    </section>
+  </body>
+</html>

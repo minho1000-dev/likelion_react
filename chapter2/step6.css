@@ -1,0 +1,36 @@
+/* Flexbox 스타일 */
+.flex-container {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.item {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.main-axis {
+  height: 100px;
+  align-items: center;
+}
+
+.cross-axis {
+  justify-content: center;
+}
