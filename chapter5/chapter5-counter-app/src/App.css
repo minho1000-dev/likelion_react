@@ -1,0 +1,30 @@
+.appContainer {
+  width: 300px;
+}
+
+.counterValue {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.counterController {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.counterController button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.counterStepper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

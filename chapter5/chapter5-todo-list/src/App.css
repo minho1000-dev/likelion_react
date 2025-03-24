@@ -1,0 +1,86 @@
+.todoListContainer {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.todoInput {
+  display: flex;
+  gap: 12px;
+  height: 40px;
+}
+
+.todoInput input {
+  flex: 1;
+  padding: 0 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.todoInput button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.todoListItems {
+  margin-bottom: 20px;
+}
+
+.noItems {
+  color: #95a5a6;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 12px 20px;
+  border: 1px solid #bdc3c7;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+}
+
+li span {
+  flex: 1;
+}
+
+li .completed {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+li button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.todoProgress {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.todoProgress progress {
+  flex: 1;
+  height: 40px;
+}
